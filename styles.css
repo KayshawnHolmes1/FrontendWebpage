@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif
+}
+
+
+/*nav */
+
+#home {
+    height: 100vh
+}
+
+nav {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cafdff;
+    padding: 0 16px;
+}
+
+a {
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.logo {
+    width: 320px;
+}
+ul {
+    display: flex;
+    
+}
+li {
+  list-style-type: none;  
+    padding-right: 25px;
+    
+}
+
+/*Home-page */
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.subheader {
+    font-size: 30px;
+    margin: 16px 0 24px 0;
+    font-weight: 550;
+}
+
+.laptop {
+    width: 390px;
+}
+
+h1 {
+  font-size: 62px 
+}
+
+.start-button {
+    color: white;
+    font-size: 19px;
+    background-color: rgb(25, 163, 209);
+    border: 0px rgb(24, 164, 211) solid;
+    padding: 4px ;
+    cursor: pointer;
+    width: 100px;
+}
+
+.row {
+width: 100%;
+max-width: 1300px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+/* About-page*/
+
+
+h2 {
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+ 
+#about {
+    background-color: rgb(250, 250, 167);
+}
+
+.row-two {
+    display: flex;
+}
+
+.computer-hand {
+width: 340px;
+padding: 0 15px 20px 10px;
+}
+.about-header {
+    font-size: 20px;
+    padding-top: 12px;
+    margin: 0 0 0 12px;
+}
+/* Discord-page */
+
+ #Discord {
+background-color: rgb(166, 248, 221);
+ }
+
+.discord-logo {
+width: 370px;
+}
+
+.Discord-p {
+font-size: 20px;
+}
+.section-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* contact-page*/
+
+#Contact {
+    background-color: #eadcff;
+  
+}
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+.contact-button {
+    margin-bottom: 12px;
+    background-color: rgb(25, 163, 209);
+    font-size: 19px;
+    color:white;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+
+/* Footer-page*/
+ 
+#footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-logo {
+    width: 380px;
+    padding: 20px 0 12px 0;
+}
+
+.footer-links {
+    padding: 0 17px;
+}
+.copyright  {
+    padding: 22px 0 30px 0;
+
+}
+
+/* SMALL PHONES ,TABLET ,LARGE SMARTPHONES */
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+    .home-description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .start-button {
+        max-width: 220px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+    .subheader {
+        text-align: center;
+        font-size: 28px;
+    }
+}
